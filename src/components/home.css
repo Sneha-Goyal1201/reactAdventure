@@ -1,0 +1,136 @@
+.about{
+    background-color: white;
+}
+.main-content {
+   
+    margin: 0 auto;
+    text-align: center;
+    background-color:white;
+    padding: 30px;
+    
+  
+  }
+  
+  .main-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+   
+  }
+  
+  .main-content p {
+    font-size:1em;
+    margin-bottom: 20px;
+    color: #666;
+    font-weight: 400;
+  }
+  
+  .button {
+    
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color:black;
+    border: 1px solid #F075AA;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #E6FF94 ;
+    width:400px;
+  }
+  
+  .button:hover {
+    background-color: #45474B;
+  }
+  .boxes{
+    padding: 60px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+  
+  .resource-card1, .resource-card2, .resource-card3, .resource-card4,.resource-card5 {
+    height: 230px;
+    width:150px;
+    
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #fafafa;
+  }
+  .resource-card1, .resource-card2, .resource-card3, .resource-card4,.resource-card5{
+    box-shadow:  7px 15px 10px 2px #987D9A;
+  }
+  .resource-card2 {
+    
+    
+    background-color:#F3FEB8;
+    color:#FF70AB;
+    
+  }
+  .resource-card2 h2{
+    font-weight: 800;
+    text-align: left;
+    height:160px;
+  }
+  .resource-card2 p{
+    background-color:#fafafa ;
+    height:30px;
+    
+    
+    
+  }
+  .resource-card4{
+    background-color: black;
+    color: white;
+  }
+  .resource-card4 h1{
+    height:150px;
+  }
+.resource-card5{
+    background-color: #E1AFD1;
+}
+.resource-card5 p{
+    height: 130px;
+    color:#948979;
+}
+@media only screen and (max-width: 700px) {
+    .button {
+        width: auto; /* Adjust width for smaller screens */
+    }
+
+    .boxes {
+        padding: 15px;
+    }
+
+    .resource-card1,
+    .resource-card2,
+    .resource-card3,
+    .resource-card4,
+    .resource-card5 {
+        width: 100%; /* Make cards full width on smaller screens */
+        max-width: 300px; /* Limit maximum width */
+    }
+
+    .resource-card2 h2 {
+        height: auto; /* Adjust height for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .main-content h1 {
+        font-size: 2.5em; /* Adjust heading font size */
+    }
+
+    .main-content p {
+        font-size: 0.9em; /* Adjust paragraph font size */
+    }
+}
+
+  
+  
+  
+  
+  
